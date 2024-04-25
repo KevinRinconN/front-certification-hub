@@ -23,9 +23,9 @@ const routesAdmin: Route[] = [
     name: "Inicio",
   },
   {
-    path: `${adminPrefix}/certificate`,
+    path: `${adminPrefix}/certification-create`,
     icon: AcademicCapIcon,
-    name: "Certificados",
+    name: "Certificar",
   },
   {
     path: `${adminPrefix}/season`,

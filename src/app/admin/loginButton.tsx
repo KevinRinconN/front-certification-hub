@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 
 export const LoginButton = () => {
   return (
-    <Button variant={"destructive"} onClick={() => logout()}>
-      Logout
+    <Button variant={"ghost"} onClick={() => logout()}>
+      Cerrar sesion
     </Button>
   );
 };

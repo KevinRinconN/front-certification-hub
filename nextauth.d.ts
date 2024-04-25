@@ -8,8 +8,8 @@ declare module "next-auth" {
       firstName: string;
       lastName: string;
       email: string;
-      role: string;
-      acces_token: string;
+      rol: string;
+      access_token: string;
       image?: string;
     } & DefaultSession["user"];
   }
